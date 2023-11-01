@@ -12,10 +12,35 @@ body {
   background-color: var(--bg-color);
 }
 
+a {
+  text-decoration: none;
+}
+
+.newcomer-tools-item-link,
+.tools-item-link {
+  color: var(--main-color);
+  font-weight: 600;
+}
+
 .logo {
   color: var(--text-color);
   font-size: 22px;
-font-weight: 600;
+  font-weight: 600;
+}
+
+.header-login-btn {
+  color: var(--add-color);
+  font-weight: 600;
+  background-color: var(--bg-color);
+  border: none;
+}
+
+.header-sign-up-btn {
+  border-radius: 8px;
+  background: var(--accent-color);
+  color: #fdf5ff;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .navigation-link {
@@ -26,6 +51,13 @@ font-weight: 600;
 
 .hero-title {
   color: var(--text-color);
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.hero-title-amount {
+  color: var(--accent-color);
   font-size: 50px;
   font-weight: 500;
   line-height: 1.4;
@@ -107,6 +139,8 @@ font-weight: 600;
   border-radius: 8px;
   background: var(--accent-color);
   color: #fff;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .newcomer-tools-item-title {
@@ -168,8 +202,10 @@ font-weight: 600;
 
 .contributor-btn {
   border-radius: 8px;
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   color: #fff;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .copy {
@@ -194,4 +230,8 @@ font-weight: 600;
   color: rgba(255, 255, 255, 0.55);
   text-decoration: none;
   font-weight: 500;
+}
+
+.address {
+  font-style: normal;
 }
