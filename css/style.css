@@ -33,6 +33,7 @@ a {
   font-weight: 600;
   background-color: var(--bg-color);
   border: none;
+  font-family: inherit;
 }
 
 .header-sign-up-btn {
@@ -41,6 +42,7 @@ a {
   color: #fdf5ff;
   font-size: 16px;
   font-weight: 600;
+  font-family: inherit;
 }
 
 .navigation-link {
@@ -73,6 +75,7 @@ a {
   border-radius: 8px;
   background-color: var(--accent-color);
   color: #fff;
+  font-family: inherit;
 }
 
 .tools-title {
@@ -113,6 +116,7 @@ a {
   background: var(--bg-color);
   color: var(--accent-color);
   font-size: 20px;
+  font-family: inherit;
 }
 
 .brand-text {
@@ -141,6 +145,7 @@ a {
   color: #fff;
   font-size: 18px;
   font-weight: 500;
+  font-family: inherit;
 }
 
 .newcomer-tools-item-title {
@@ -183,7 +188,7 @@ a {
   text-align: center;
   font-size: 48px;
   font-weight: 500;
-  line-height: 1.3%;
+  line-height: 1.3;
 }
 
 .contributor-text {
@@ -206,6 +211,7 @@ a {
   color: #fff;
   font-size: 16px;
   font-weight: 600;
+  font-family: inherit;
 }
 
 .copy {
