@@ -12,6 +12,45 @@ body {
   background-color: var(--bg-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -133,7 +172,7 @@ a {
 }
 
 .newcomer-tools-text {
-  color: rgba(255, 255, 255, 0.55);
+  color: var(--main-color);
   font-size: 18px;
   font-weight: 500;
   line-height: 1.66;
@@ -172,7 +211,7 @@ a {
 }
 
 .reviews-info {
-  color: rgba(255, 253, 253, 0.55);
+  color: var(--main-color);
 }
 
 .reviews-text {
@@ -192,7 +231,7 @@ a {
 }
 
 .contributor-text {
-  color: rgba(255, 255, 255, 0.55);
+  color: var(--main-color);
   text-align: center;
   font-size: 18px;
   font-weight: 500;
@@ -233,7 +272,7 @@ a {
 
 .footer-link,
 .address-link {
-  color: rgba(255, 255, 255, 0.55);
+  color: var(--main-color);
   text-decoration: none;
   font-weight: 500;
 }
