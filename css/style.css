@@ -61,6 +61,11 @@ a {
   font-weight: 600;
 }
 
+.header {
+  padding-top: 26px;
+  padding-bottom: 104px;
+}
+
 .logo {
   color: var(--text-color);
   font-size: 22px;
@@ -90,6 +95,10 @@ a {
   text-decoration: none;
 }
 
+.hero {
+  padding-bottom: 200px;
+}
+
 .hero-title {
   color: var(--text-color);
   font-size: 50px;
@@ -115,6 +124,10 @@ a {
   background-color: var(--accent-color);
   color: #fff;
   font-family: inherit;
+}
+
+.tools {
+  padding-bottom: 200px;
 }
 
 .tools-title {
@@ -158,10 +171,19 @@ a {
   font-family: inherit;
 }
 
+.brand {
+  padding-top: 55px;
+  padding-bottom: 220px;
+}
+
 .brand-text {
   color: rgba(255, 255, 255, 0.8);
   font-size: 24px;
   font-weight: 500;
+}
+
+.newcomer-tools {
+  padding-bottom: 200px;
 }
 
 .newcomer-tools-title {
@@ -203,6 +225,10 @@ a {
   line-height: 2.14;
 }
 
+.reviews {
+  padding-bottom: 250px;
+}
+
 .reviews-title {
   color: var(--add-color);
   font-size: 26px;
@@ -220,6 +246,10 @@ a {
   font-size: 14px;
   line-height: 2.14;
   letter-spacing: 0.21px;
+}
+
+.contributor {
+  padding-bottom: 240px;
 }
 
 .contributor-title {
@@ -251,6 +281,11 @@ a {
   font-size: 16px;
   font-weight: 600;
   font-family: inherit;
+}
+
+.footer {
+  padding-top: 70px;
+  padding-bottom: 98px;
 }
 
 .copy {
