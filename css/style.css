@@ -127,7 +127,6 @@ a {
 
 .form-position {
   display: flex;
-  align-items: center;
   margin-top: 60px;
 }
 
@@ -159,6 +158,8 @@ a {
   background-color: #283036;
   padding: 8px 11px 8px 18px;
   border: none;
+  display: flex;
+  align-items: center;
 }
 
 .hero-svg {
@@ -169,6 +170,8 @@ a {
   background-color: transparent;
   border: none;
   margin-left: auto;
+  width: 205px;
+  font-size: 14px;
 }
 
 .hero-btn {
